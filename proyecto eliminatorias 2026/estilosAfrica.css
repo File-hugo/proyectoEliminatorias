@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background:linear-gradient(to right, lightyellow, lightgreen, rgb(156, 177, 161));
+overflow-x: hidden;
+}
+
+#img1ClasificacionAfricana{
+    width:400px;
+    height:300px;
+    position:absolute;
+    left:10px;
+    top:150px;
+}
+
+#img2ClasificacionAfricana{
+    width:400px;
+    height:300px;
+    position:absolute;
+    left:430px;
+    top:150px;
+}
+
+#img3ClasificacionAfricana{
+    width:400px;
+    height:300px;
+    position:absolute;
+    left:850px;
+    top:150px;
+}
+
+#tablaEquipos{
+    position: relative;
+    border-collapse: collapse;
+    top:530px;
+    left:15px;
+    border:5px solid black;
+}
+th, tr{
+    border:5px solid black;
+    border-collapse: collapse;
+    font-size:25px;
+
+}
+td{
+    padding:6px;
+    font-size:20px;
+
+}
+
+
+#idEliminatorias2026{
+    position:relative;
+    left:410px;
+    top:20px;
+    color:rgb(145, 2, 145);
+}
+#textoIdEliminatorias2026{
+    position:absolute;
+    font-size:38px;
+}
+
+#textoIdEliminatorias2026:hover{
+    text-decoration: underline;
+}
+#textoExplicoClasificacion{
+font-size:21px;
+position:relative;
+top:480px;
+left:10px;
+padding-bottom:15px;
+}
+
+
+
+/*------------------*/
+
+
+@media all and (min-width:400px) and (max-width:1050px){
+    #img1ClasificacionAfricana{
+        width:275px;
+        height:300px;
+        position:absolute;
+        top:110px;
+        left:1px;
+    }
+    #img2ClasificacionAfricana{
+        width:275px;
+        height:300px;
+        position:absolute;
+        left:280px;
+        top:110px;
+    }
+    #img3ClasificacionAfricana{
+        width:400px;
+        height:275px;
+        position:absolute;
+        left:100px;
+        top:430px;
+    }
+    #textoExplicoClasificacion{
+        font-size:21px;
+        position:relative;
+        top:720px;
+        left:10px;
+        padding-bottom:15px;
+        }
+
+}

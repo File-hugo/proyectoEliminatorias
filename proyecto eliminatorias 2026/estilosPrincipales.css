@@ -1,0 +1,372 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x:hidden;
+
+    background:linear-gradient(to right, lightyellow, lightgreen, rgb(156, 177, 161));
+}
+
+
+#idImagenNoticias{
+    position:absolute;
+    width:130px;
+    height:90px;
+    left:860px;
+    top:100px;
+}
+
+#divVideo1Fifa26{
+    position:relative;
+    left:5px;
+    top:70px;
+    width:100%;
+    height:100%;
+}
+
+#video1Fifa26{
+    height:350px;
+
+}
+/*-----------------*/
+
+#idNoticiasEliminatorias{
+position:relative;
+left:650px;
+top:70px;
+
+}
+
+#textoidNoticiasEliminatorias{
+    font-size:31px;
+    font-weight: Arial;
+    position:absolute;
+    color: rgb(78, 78, 146);
+    z-index:1;
+    
+}
+#textoidNoticiasEliminatorias:hover, #textoidComienzoEliminatorias:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+/*-----------------*/
+
+#idComienzoEliminatorias{
+    position:relative;
+    left:970px;
+    top:70px;
+}
+    
+#textoidComienzoEliminatorias{
+    font-size:30px;
+    font-weight: Arial;
+    position:absolute;
+    color: rgb(78, 78, 146);
+    text-decoration: none;
+    z-index:1;
+
+}
+
+/*---------------------*/
+#divGifFutbol{
+    position:relative;
+    top:650px;
+    width:300px;
+    z-index:0;
+    left:20px;
+
+}
+
+#imgGifFutbol{
+    width:1200px;
+    height:300px;
+}
+
+#textoRumboMundial{
+    font-size:30px;
+    position:absolute;
+    left:450px;
+    font-family: system-ui;
+    top:20px;
+    background: linear-gradient(yellow,rgb(226, 161, 22));
+
+}
+
+#explicacionMundial2026{
+    position:relative;
+    top:120px;
+
+}
+
+
+#iDProximaEdicion{
+    position:relative;
+    top:170px;
+    left:10px;
+    font-size:22px;
+    width:1300px;
+}
+/*-------------------------*/
+
+#tablePaisesClasificados{
+    border:5px solid black;
+    background-color:rgba(154, 243, 228, 0.3);
+    border-collapse: collapse;
+    position:absolute;
+    top:200px;
+    left:650px;
+    width:500px;
+    }
+
+#trTextoPaisesClasificados{
+    font-size:30px;
+    text-align:center;
+    background-color: rgba(77, 77, 77, 0.3);
+    border:5px solid black;
+
+}
+#idDeEEUUparaAbajo{ /*tbody*/
+    border:5px solid black;
+    font-size:27px;
+}
+
+#idDeEEUUparaAbajo td{
+    padding:3px;
+}
+
+#idBanderaEEUU, #idBanderaMexico, #idBanderaCanada{
+    width:35px;
+    height:35px;
+    position:absolute;
+}
+#idBanderaEEUU{
+    top:45px;
+    left:195px;
+}
+
+#idBanderaMexico{
+    top:79px;
+    left:105px;
+}
+
+#idBanderaCanada{
+    top:119px;
+    left:105px;
+}
+
+#tfootPaisesClasificado{
+    background-color: rgba(77, 77, 77, 0.3);
+    font-size:23px;
+}
+
+/*------------------------------------*/
+
+#idEliminatoriasConmebol{
+    position:relative;
+    bottom:100px;
+    left:10px;
+    font-size:30px;  
+    text-decoration: none;
+}
+
+#idEliminatoriasAsia:hover{
+    text-decoration: underline;
+    cursor:pointer;
+    
+}
+/*-----------*/
+
+#idEliminatoriasAsia{
+    position:relative;
+    left:350px;
+    bottom:130px;
+    font-size:30px;  
+    text-decoration: none;
+}
+
+
+#idEliminatoriasAsia:hover{
+    text-decoration: underline;
+    cursor:pointer;
+    
+}
+
+/*-----------*/
+
+#idEliminatoriasAfrica{
+    position:relative;
+    bottom:160px;
+    left:660px;
+    font-size:30px;  
+    text-decoration: none;
+}
+
+#idEliminatoriasAfrica:hover{
+    text-decoration: underline;
+    cursor:pointer;
+    
+}
+
+/*-----------*/
+
+#idEliminatoriasOceania{
+    position:relative;
+    bottom:240px;
+    left:990px;
+    font-size:30px;  
+    text-decoration: none;
+}
+
+#idEliminatoriasOceania:hover{
+    text-decoration: underline;
+    cursor:pointer;
+    
+}
+
+/*------------------*/
+
+@media all and (min-width:400px) and (max-width:950px){
+    /*si el tamaño esta entre 600 y 1023 que haga esto:*/
+    #video1Fifa26{
+        width:270px;
+        height:270px; 
+        top:50px;
+        position:absolute;
+    }
+    #textoRumboMundial{
+        font-size:30px;
+        position:absolute;
+        left:100px;
+        top:2px;
+    }
+    #imgGifFutbol{
+        position:absolute;
+        width:800px;
+        top:400px;
+        height:300px;
+    }
+    
+    #textoidEliminatoriasConmebol, #textoidEliminatoriasAsia, #textoidEliminatoriasAfrica, #textoidEliminatoriasOceania{
+        font-size:25px;
+
+    }
+    #idEliminatoriasConmebol{
+        position:relative;
+        left:5px;
+        top:95px;
+    }
+    #idEliminatoriasAsia{
+        position:relative;
+        right:51px;
+        top:65px;
+    }
+    #idEliminatoriasAfrica{
+        position:relative;
+        right:125px;
+        top:35px;
+    }
+    #idEliminatoriasOceania{
+        position:relative;
+        left:335px;
+        top:85px;
+
+    }
+
+    #tablePaisesClasificados{
+        background-color:rgba(154, 243, 228, 0.3);
+        border-collapse: collapse;
+        position:relative;
+        top:170px;
+        left:300px;
+        width:500px;
+    }
+    #trTextoPaisesClasificados{
+        font-size:24px;
+        text-align:left;
+        background-color: rgba(77, 77, 77, 0.3);
+        border:5px solid black;
+        
+    }
+    #tfootPaisesClasificado{
+        font-size:18px;
+
+    }
+    #idBanderaEEUU{ /*tbody*/
+        font-size:27px;
+        width:35px;
+        height:35px;
+        position:absolute;
+        top:37px;
+        left:185px;
+    }
+    #idBanderaMexico{ /*tbody*/
+        font-size:27px;
+        width:35px;
+        height:35px;
+        position:absolute;
+        top:73px;
+        left:105px;
+    }
+
+    #idBanderaCanada{
+        top:110px;
+        left:105px;
+        font-size:27px;
+        width:35px;
+        height:35px;
+        position:absolute;
+
+    }
+
+    
+    #textoidNoticiasEliminatorias{
+        font-size:21px;
+        font-weight: Arial;
+        color: rgb(78, 78, 146);
+    }
+
+    #textoidComienzoEliminatorias{
+        font-size:21px;
+        font-weight: Arial;
+        color: rgb(78, 78, 146);
+        text-decoration: none;
+
+    }
+    #idImagenNoticias{
+        position:absolute;
+        width:80px;
+        height:80px;
+        left:410px;
+        top:80px;
+    }
+    #idComienzoEliminatorias{
+        position:absolute;
+        left:500px;
+        bottom:130px;
+    }
+    #idNoticiasEliminatorias{
+        position:absolute;
+        left:300px;
+        bottom:300px;
+        }
+        
+    #iDProximaEdicion{
+        position:relative;
+        top:750px;
+        left:10px;
+        font-size:22px;
+        width:1200px;
+    }
+    #divGifFutbol{
+        position:relative;
+        top:260px;
+        width:800px;
+        left:20px;
+    
+    }
+
+}
+    

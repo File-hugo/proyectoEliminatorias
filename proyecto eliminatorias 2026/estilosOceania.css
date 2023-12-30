@@ -1,0 +1,392 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background:linear-gradient(to right, lightyellow, lightgreen, rgb(156, 177, 161));
+
+}
+
+#idEliminatorias2026{
+    position:relative;
+    left:150px;
+    width:100%;
+    top:30px;
+    color:rgb(145, 2, 145);
+}
+
+#textoIdEliminatorias2026{
+    position:absolute;
+    font-size:40px;
+
+}
+
+/*---------*/
+#imgCambioFecha1{
+    position:absolute;
+    cursor:pointer;
+    left:750px;
+    width:40px;
+    height:40px;
+    top:220px;
+
+}
+
+#imgCambioFecha2{
+    position:absolute;
+    cursor:pointer;
+    left:800px;
+    width:40px;
+    height:40px;
+    top:220px;
+
+}
+#imgCambioFecha3{
+    position:absolute;
+    cursor:pointer;
+    left:850px;
+    width:40px;
+    height:40px;
+    top:220px;
+
+}
+#imgCambioFecha4{
+    position:absolute;
+    cursor:pointer;
+    left:900px;
+    width:40px;
+    height:40px;
+    top:220px;
+
+}
+
+#logoMundial2026{
+    width:250px;
+    height:150px;
+    position:absolute;
+    top:30px;
+    left:800px;
+}
+
+#colorIdFecha1{ /*cambiar borde aca que engloba fecha y dia jueves 07 09 23*/
+    background-color:rgba(99, 101, 99, 0.5);
+    width:340px;
+    height:100px;
+    top:4px;
+    position:absolute;
+    border:5px solid black;
+    z-index:1;
+}
+
+#tablaFecha1{
+    border-collapse: collapse;
+    position:relative;
+    top:250px;
+    left:790px;
+    width:27.5%;
+
+}
+
+#tablaFecha2{
+    border-collapse: collapse;
+    position:relative;
+    top:250px;
+    left:790px;
+    width:27.5%;
+
+}
+
+#tablaFecha3{
+    border-collapse: collapse;
+    position:relative;
+    top:250px;
+    left:790px;
+    width:27.5%;
+
+}
+
+#tablaFecha4{
+    border-collapse: collapse;
+    position:relative;
+    top:250px;
+    left:790px;
+    width:27.5%;
+
+}
+
+#tablaFecha1, td {
+    padding:10px;
+    margin-left:10px;
+    font-size:20px;
+    border: 5px solid black;
+
+  }
+
+
+#tr1{
+    background-color:rgba(53, 52, 52, 0.3);
+    position:relative;
+
+}
+
+#tr2{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.6);
+}
+
+#tr3{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+
+#idFecha1{
+    width:350px;
+    height:50px;
+    position:relative;
+    top:250px;
+    left:800px;
+
+}
+#idFecha2{
+    background-color:white;
+ 
+}
+#textoFecha1, #textoFecha2, #textoFecha3,#textoFecha4 {
+    color:black;
+    font-family:Arial;
+    font-size:20px;
+    left:140px;
+    position:absolute;
+    top:15px;
+}
+
+#imgFecha1{/*va hacia la izquierda*/
+    position:absolute;
+    width:90px;
+    height:50px;
+    cursor:pointer;
+}
+#imgFecha2{ /*va hacia la derecha*/
+    position:absolute;
+    width:90px;
+    height:50px;
+    left:240px;
+    cursor:pointer;
+
+}
+
+#idFechaDiaMes2{
+    position:relative;
+    top:250px;
+    left:800px;
+    width:350px;
+    height:45px;
+}
+#idFechaDiaMes1{
+    position:relative;
+    top:250px;
+    left:800px;
+    width:350px;
+    height:55px;
+}
+#textoFechaMes1, #textoFechaMes2,#textoFechaMes3, #textoFechaMes4{
+    font-family: Arial;
+    font-size:20px;
+    left:100px;
+    position:absolute;
+    top:10px;
+}
+
+
+/*---------------------*/
+
+
+#tablaFecha2, td {
+    padding:10px;
+    margin-left:10px;
+    font-size:20px;
+
+  }
+
+
+#tr4{
+    position:relative;
+    background-color:rgba(99, 101, 99, 0.5);
+
+}
+
+#tr5{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.6);
+}
+
+#tr6{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr6_1{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr6_2{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr7{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr8{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.6);
+}
+
+#tr9{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr9_1{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr9_2{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr10{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr11{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr12{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr12_1{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tr12_2{
+    position:relative;
+    background-color:rgba(53, 52, 52, 0.3);
+}
+#tablaFecha2,#textoFechaMes2, #textoFecha2{
+    display:none;
+}
+#tablaFecha3,#textoFechaMes3, #textoFecha3{
+    display:none;
+
+}
+#tablaFecha4,#textoFechaMes4, #textoFecha4{
+    display:none;
+
+}
+/*----------------------------------*/
+
+#tablaFecha3, td {
+    padding:10px;
+    margin-left:10px;
+    font-size:20px;
+
+  }
+  #tablaFecha4, td {
+    padding:10px;
+    margin-left:10px;
+    font-size:20px;
+
+  }
+
+/*-----------*/
+#tablaEquipos{
+    position: relative;
+    border-collapse: collapse;
+    bottom:150px;
+    left:15px;
+}
+td{
+    padding:6px;
+
+}
+#equipos1 td{
+    font-size:15px;
+}
+
+
+#tablaPuntosEquipos{
+    position:relative;
+    bottom:147px;
+    left:15px;
+    width:617px;
+    height:45px;    
+    border-collapse: collapse;
+    border: 5px solid black;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+#textoTablaPuntosEquipos{
+    font-size:25px;
+    font-weight: bold;
+    position:absolute;
+    left:230px;
+    top:5px;
+}
+
+#texto2PuntosEquipos1erParrafo{
+    font-size:23px;
+}
+#divPuntosEquipos1erParrafo{
+    background-color:yellow;
+
+}
+button{
+    border: none;
+}
+
+#tablaGoleadores {
+    border-collapse: collapse;
+    position: relative;
+    left:15px;
+    bottom:50px;
+}
+
+#tablaGoleadores td {
+    padding: 10px;
+}
+
+#divTablaGoleadores{
+    bottom:45px;
+    position:relative;
+    left:15px;
+    width:302px;
+    height:45px;    
+    border-collapse: collapse;
+    border: 5px solid black;
+    background-color:rgba(0, 0, 0, 0.3);
+
+}
+#textoTablaGoleadores {
+font-size:30px;
+color:black;
+left:80px;
+position:absolute;
+top:3px;
+    }
+
+/*------*/
+
+#explicacionMundial2026{
+    position:relative;
+    bottom:270px;
+    border: 5px solid black;
+    border-collapse: collapse;
+    width:78%;
+    left:50px;
+}
+#textoExplicacionMundial2026{
+    font-size:30px;
+    font-family: Arial;
+}

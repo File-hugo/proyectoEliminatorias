@@ -1,0 +1,66 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background:linear-gradient(to right, lightyellow, lightgreen, rgb(156, 177, 161));
+
+}
+
+
+
+#imgClasificacionAsiatica{
+    width:800px;
+    height:600px;
+    position:relative;
+    top:20px;
+    left:170px;
+}
+
+#textoIdEliminatorias2026{
+    font-size:38px;
+    color:rgb(245, 135, 0);
+    text-align:center;
+}
+
+#textoIdEliminatorias2026:hover{
+    text-decoration: underline;
+
+}
+
+#tablaEquipos {
+    border: 5px solid black;
+    border-collapse: collapse;
+    font-size: 18px;
+    top: 100px;
+    width: 100%;
+    height: 70%; /* Cambiado a porcentaje */
+    position: relative;
+}
+
+
+#tablaEquipos th{
+    border: 5px solid black;
+    border-collapse: collapse; 
+    padding:5px;
+    margin:5px;
+
+}
+
+#tablaEquipos td{
+    border: 5px solid black;
+    border-collapse: collapse; 
+    padding:5px;
+    margin:5px;
+
+}
+
+@media all and (min-width:400px) and (max-width:1050px){
+    #imgClasificacionAsiatica{
+        width:560px;
+        height:500px;
+        position:relative;
+        top:20px;
+        left:20px;
+    }
+}

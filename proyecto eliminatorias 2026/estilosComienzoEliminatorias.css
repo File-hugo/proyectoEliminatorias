@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x:hidden;
+    background: linear-gradient(to right, rgb(110, 128, 0), rgb(243, 255, 243));
+}
+
+/* Resto de tus estilos */
+
+
+#contenedorTitulo {
+    position: absolute;
+    left: 250px;
+    top: 5px;
+    font-size: 30px;
+}
+
+#textoComienzoPorConfederacion {
+    position:relative; /* Esto elimina los márgenes predeterminados de los párrafos */
+    left:300px;
+    font-size:30px;
+    top:10px;
+}
+
+
+
+/*---------------*/
+
+
+#comienzoAfc{
+    position:relative;
+    top:300px;
+    left:500px;
+
+}
+
+#imgLogoAfc{
+    width:200px;
+    height:200px;
+    bottom:165px;
+    position: relative;
+    left:500px;
+
+}
+
+#textoComienzoAfc{
+    font-size:20px;
+    position:absolute;
+    top:315px;
+    width:90%;
+    left:45px;
+
+}
+
+/*-------------*/
+
+
+
+#imgComienzoSudamerica{
+    width:200px;
+    height:200px;
+    top:195px;
+    left:300px;
+    position: relative; 
+}
+
+#textoComienzoSudamerica{
+    font-size:20px;
+    position:absolute;
+    top:680px;
+    left:55px;
+    width:90%;
+}
+/*-----------------------------*/
+#textoComienzoCaf{
+    font-size:20px;
+    position:absolute;
+    top:995px;
+    width:90%;
+    left:55px;
+    padding-top:5px;
+}
+
+#imgLogoCaf{
+    width:200px;
+    height:200px;
+    left:500px;
+    position: relative;
+    top:720px;
+}
+
+/*----------------*/
+
+@media all and (min-width:500px) and (max-width:950px){
+    #textoComienzoPorConfederacion{
+    position:relative; 
+    left:20px;
+    font-size:30px;
+    top:10px;
+ }
+
+ #imgLogoAfc{
+    width:200px;
+    height:200px;
+    bottom:175px;
+    position: relative;
+    left:200px;
+
+}
+#imgComienzoSudamerica{
+    width:200px;
+    height:200px;
+    top:205px;
+    position: relative;
+    left:0px;
+
+}
+#imgLogoCaf{
+    width:200px;
+    height:200px;
+    top:720px;
+    position: relative;
+    left:200px;
+
+}
+
+}
